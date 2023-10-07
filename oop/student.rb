@@ -10,10 +10,10 @@ class Student
   end
 
   def to_s
-    "Name : #{@first_name} #{@last_name}
-username:#{username}
-email:#{email}
-password:#{password}"
+    "Name : #{first_name} #{last_name}
+Username:#{username}
+Email:#{email}
+Password:#{password}"
   end
 end
 
@@ -22,5 +22,3 @@ sunny = Student.new("Saidul", "Arefin", "codeninja", "sunny@gmail.com", "1231231
 
 puts zubaer
 puts sunny
-zubaer.last_name = sunny.last_name
-puts zubaer
